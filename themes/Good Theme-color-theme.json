@@ -1,0 +1,162 @@
+{
+	"name": "Good Theme",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#292929",//252525
+		"editor.foreground": "#EEFFFF",
+		"activityBarBadge.background": "#007acc",
+		"sideBarTitle.foreground": "#bbbbbb",
+	},
+	"tokenColors": [
+		{
+			"name": "Strings",
+			"scope": [
+				"string.quoted",
+				"string.quoted entity.name",
+				"string.quoted punctuation",
+				"string.template"
+			],
+			"settings": {
+				"foreground": "#94b87a",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.variable",
+			],
+			"settings": {
+				"foreground": "#c69fdf",
+			}
+		},
+		{
+			"name": "Numbers & Constants",
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.other",
+				"variable.other.constant",
+				"string.quoted constant.character",
+				"constant.character string.quoted",
+				"support.constant",
+			],
+			"settings": {
+				"foreground": "#8cdaf2",
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": [
+				"keyword.control",
+				"keyword.other",
+				"source.go keyword",
+				"storage",
+				"support.type",
+				"constant.language",
+				"entity.name.tag",
+			],
+			"settings": {
+				"foreground": "#e69e19",
+			}
+		},
+		{
+			"name": "Entity Names",
+			"scope": [
+				"entity.name",
+				"support.class",
+				"variable.other.enummember",
+			],
+			"settings": {
+				"foreground": "#EEFFFF",
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"entity.name.method",
+				"support.function",
+				"support.type.property-name",
+				"entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#f5dca3",
+			}
+		},
+		{
+			"name": "HTML Tags",
+			"scope": [
+				"text.html entity.name.tag",
+			],
+			"settings": {
+				"foreground": "#e69e19aa",
+			}
+		},
+		{
+			"name": "HTML Attribute Values",
+			"scope": [
+				"text.html string.quoted"
+			],
+			"settings": {
+				"foreground": "#94b87aaa",
+			}
+		},
+		{
+			"name": "Operator",
+			"scope": [
+				"source.go keyword.operator",
+				"keyword.operator.logical",
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.borrow",
+				"keyword.operator.math",
+				"keyword.operator.expression",
+				"source.css support.type.property-name",
+			],
+			"settings": {
+				"foreground": "#EEFFFFdd",
+			}
+		},
+		{
+			"name": "Punctuation + Comments",
+			"scope": [
+				"keyword.operator.namespace",
+				"keyword.operator.key-value",
+				"punctuation",
+				"entity.name.namespace",
+				"comment",
+				"entity.other.attribute-name.html",
+				"meta.brace"
+			],
+			"settings": {
+				"foreground": "#EEFFFFaa",
+			}
+		},
+		{
+			"name": "Parameters",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+	],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"variable.mutable": {
+			"underline": true
+		},
+		"*.unsafe": {
+			"italic": true
+		},
+		"*.declaration": {
+			"bold": true
+		},
+		"interface": "#f5d8a3",
+		"typeAlias": {
+			"italic": true
+		},
+	}
+}
