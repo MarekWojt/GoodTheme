@@ -43,17 +43,6 @@
 			}
 		},
 		{
-			"name": "Variables",
-			"scope": [
-				"variable",
-				"support.variable",
-				"fenced_code"
-			],
-			"settings": {
-				"foreground": "#c69fdf",
-			}
-		},
-		{
 			"name": "Numbers & Constants",
 			"scope": [
 				"constant.numeric",
@@ -66,6 +55,19 @@
 			],
 			"settings": {
 				"foreground": "#8cdaf2",
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.variable",
+				"fenced_code",
+				"variable.other.property",
+				"support.variable.property",
+			],
+			"settings": {
+				"foreground": "#c69fdf",
 			}
 		},
 		{
@@ -173,6 +175,7 @@
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
+		"property": "#c69fdf",
 		"variable.mutable": {
 			"underline": true
 		},
